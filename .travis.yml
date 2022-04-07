@@ -19,3 +19,5 @@ deploy:
   app: "dockerized-vite-app"
   env: "Dockerizedviteapp-env"
   bucket_name: "elasticbeanstalk-eu-central-1-311534292817"
+  on:
+    branch: main
