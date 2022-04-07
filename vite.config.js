@@ -5,6 +5,8 @@ export default defineConfig({
   test: {
     // ...
   },
-  plugins: [react()]
-
+  plugins: [react()],
+  server: {
+    host: true
+  }
 })
